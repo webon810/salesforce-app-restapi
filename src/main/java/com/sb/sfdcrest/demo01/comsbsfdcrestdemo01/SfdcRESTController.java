@@ -31,7 +31,7 @@ public class SfdcRESTController {
     static final String PASSWORD = "SiyuyuiyWNMYYzucDvEDmHdGtuououio";
     
     //SFDC to create the connect app
-    //under - edit policies - change IP relaxation for local test
+    //under - manage - edit policies - select IP relaxation for local test
     //static final String LOGINURL = "https://ap5.salesforce.com";
     static final String LOGINURL = "https://na51.salesforce.com";
     static final String GRANTSERVICE = "/services/oauth2/token?grant_type=password";
